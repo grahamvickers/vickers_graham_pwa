@@ -1,0 +1,281 @@
+body {
+  height: 160vh;
+  background-image: url(../images/bg2.jpg);
+  background-repeat: repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
+
+@font-face {
+  font-family: starWarsFont;
+  src: url(../fonts/Starjedi.ttf);
+}
+
+main {
+  padding: 40px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(#2f2f2f), to(#2f2f2f00));
+  background-image: linear-gradient(to bottom, #2f2f2f, #2f2f2f00);
+}
+
+header {
+  margin-bottom: 40px;
+}
+
+header img {
+  width: 120px;
+}
+
+#landing {
+  margin-bottom: 40px;
+}
+
+#landing h2 {
+  font-family: starWarsFont, Arial, Helvetica, sans-serif;
+  color: #FFD340;
+  letter-spacing: 3px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+#landing p {
+  color: #f3f3f3;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#search {
+  background: url("../images/magnifying-glass-gray.svg") #f3f3f3 no-repeat 5px;
+  background-size: 30px 30px;
+  border: none;
+  width: 80%;
+  padding: 11px 0;
+  -webkit-box-shadow: 0 0px 8px #c4c4c4 inset;
+          box-shadow: 0 0px 8px #c4c4c4 inset;
+  font-size: 14px;
+  color: #2f2f2f;
+  font-weight: bold;
+  outline: none;
+  padding-left: 40px;
+}
+
+#listCon {
+  width: 320px;
+  height: 351px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: absolute;
+      -ms-flex-pack: absolute;
+          justify-content: absolute;
+  text-align: center;
+  background-color: rgba(47, 47, 47, 0.666);
+  padding: 20px;
+}
+
+#listCon form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  justify-items: center;
+  text-align: center;
+}
+
+#listCon ul {
+  border-top: 2px solid #FFD340;
+  margin-top: 10px;
+}
+
+#listCon li {
+  margin-bottom: 10px;
+}
+
+#listCon li:first-child {
+  margin-top: 10px;
+}
+
+a {
+  font-family: starWarsFont, Arial, Helvetica, sans-serif;
+  color: #FFD340;
+  text-decoration: none;
+  letter-spacing: 2px;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+#filmCon {
+  display: none;
+  border-top: 2px solid #FFD340;
+  width: 320px;
+  max-height: 551px;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: absolute;
+      -ms-flex-pack: absolute;
+          justify-content: absolute;
+  text-align: center;
+  background-color: rgba(47, 47, 47, 0.666);
+  padding: 20px;
+}
+
+#filmCon #filmDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#filmCon #moreDetails {
+  padding: 10px;
+}
+
+#filmCon img {
+  height: 148px;
+  max-width: 100px !important;
+}
+
+#filmCon h3 {
+  font-family: starWarsFont, Arial, Helvetica, sans-serif;
+  color: #FFD340;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#filmCon p {
+  text-align: left !important;
+  color: #f3f3f3;
+  line-height: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#filmCon2 {
+  display: none;
+  border-top: 2px solid #FFD340;
+  width: 320px;
+  max-height: 551px;
+  margin: 0 auto;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: absolute;
+      -ms-flex-pack: absolute;
+          justify-content: absolute;
+  text-align: center;
+  background-color: rgba(47, 47, 47, 0.666);
+  padding: 20px;
+}
+
+#filmCon2 #filmDetails {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-bottom: 10px;
+}
+
+#filmCon2 #moreDetails {
+  padding: 10px;
+}
+
+#filmCon2 img {
+  height: 148px;
+  max-width: 100px !important;
+}
+
+#filmCon2 h3 {
+  font-family: starWarsFont, Arial, Helvetica, sans-serif;
+  color: #FFD340;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 10px;
+}
+
+#filmCon2 p {
+  text-align: left !important;
+  color: #f3f3f3;
+  line-height: 22px;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#button {
+  margin-top: 30px;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  -webkit-transition: .3s ease-in-out;
+  transition: .3s ease-in-out;
+}
+
+#button:hover {
+  background-color: #cb1717;
+  color: #f3f3f3;
+  cursor: pointer;
+}
+
+footer {
+  margin-top: 60px;
+  font-family: starWarsFont, Arial, Helvetica, sans-serif;
+  color: #FFD340;
+  text-decoration: none;
+  letter-spacing: 2px;
+  font-size: 16px;
+  text-shadow: 2px 2px #2f2f2f80;
+}
+
+@media screen and (min-width: 980px) {
+  body {
+    height: 100vh;
+  }
+  #mainSection {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    margin: 0 auto;
+    width: 840px;
+  }
+  #filmCon {
+    width: 450px;
+    max-height: 351px;
+    border-left: 2px solid #FFD340;
+    border-top: none;
+  }
+  #filmCon2 {
+    width: 450px;
+    max-height: 351px;
+    border-left: 2px solid #FFD340;
+    border-top: none;
+  }
+}
+/*# sourceMappingURL=main.css.map */

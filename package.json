@@ -1,0 +1,23 @@
+{
+  "name": "html",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "workbox generateSW workbox-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grahamvickers/vickers_graham_star_wars.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grahamvickers/vickers_graham_star_wars/issues"
+  },
+  "homepage": "https://github.com/grahamvickers/vickers_graham_star_wars#readme",
+  "dependencies": {
+    "workbox-cli": "^6.5.1"
+  }
+}
